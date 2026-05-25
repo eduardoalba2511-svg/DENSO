@@ -1,2 +1,73 @@
+[index.html](https://github.com/user-attachments/files/28202711/index.html)
 # DENSO
 Pagina web de una empresa llamada DENSO que vende y distrbuye autopartes par automoviles 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENSO</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+
+<header>
+    <div class="logo">DENSO</div>
+    <nav id="nav">
+        <a href="#">Inicio</a>
+        <a href="segundapagina.html">Productos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+
+<section class="hero">
+    <h1>Bienvenido a DENSO</h1>
+    <p>Empresa líder mundial en tecnología automotriz y autopartes.</p>
+    <button><a href="segundapagina.html">Conocer más</a></button>
+</section>
+
+
+<section class="about" id="about">
+    <h2>Sobre la empresa</h2>
+    <p>
+        DENSO desarrolla sistemas y componentes automotrices avanzados que mejoran 
+        la seguridad, eficiencia y sostenibilidad de los vehículos.
+    </p>
+</section>
+
+
+<footer>
+
+    <h2>Síguenos</h2>
+
+    <div class="botones-redes">
+
+        <a href="https://www.instagram.com/densomx.autopars?igsh=Y2V5aXZnOGhhZnd3&utm_source=qr"
+        target="_blank"
+        class="instagram">
+            Instagram
+        </a>
+
+        <a href="https://www.facebook.com/share/1FaZXBL31J/?mibextid=wwXIfr"
+        target="_blank"
+        class="facebook">
+            Facebook
+        </a>
+
+        <a href="https://wa.me/5540488007"
+        target="_blank"
+        class="whatsapp">
+            WhatsApp
+        </a>
+
+    </div>
+
+    <p>© 2026 DENSO | Todos los derechos reservados</p>
+</footer>
+
+<script src="inicio.js"></script>
+</body>
+</html>
